@@ -254,7 +254,7 @@ h2.projects-heading {
   position: relative;
   background-blend-mode: darken;
   background-repeat: no-repeat;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.5);
   margin-left: 20px;
   width: 400px;
   border: 0 none;
@@ -273,3 +273,15 @@ h2.projects-heading {
   color: white;
 }
 
+.fade-In{
+  animation: fadeIn 4s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
